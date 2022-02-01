@@ -37,6 +37,10 @@ def uncomplete_item(id):
     trello.uncomplete_item(id)
     return redirect(url_for('index')) 
 
+@app.route('/foo')
+def foo():
+    return 'foo!' 
+
 
 if __name__ == '__main__':
     app.run()
