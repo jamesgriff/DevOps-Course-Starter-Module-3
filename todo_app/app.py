@@ -39,7 +39,7 @@ def uncomplete_item(id):
 
 @app.route('/foo')
 def foo():
-    return 'foo!' 
+    return 'foo 2!' 
 
 
 if __name__ == '__main__':
